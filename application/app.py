@@ -22,6 +22,8 @@ def create_app(config_name):
     @app.before_first_request
     def start_up():
         print("=========="*3)
+        from application.cashman_blueprint import transactions
+        print(transactions)
         print(f"start up function")
         print("=========="*3)
 
