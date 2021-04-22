@@ -9,6 +9,6 @@
   },
   {
     "name": "FLASK_APP",
-    "value": "application/hello.py"
+    "value": "application/wsgi.py"
   }
 ]
